@@ -2,8 +2,8 @@ package com.example.demo.projeto.repositorio;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.projeto.model.Quarto;
+import com.example.demo.projeto.model.Cliente;
 
-public interface QuartoDAO extends JpaRepository<Quarto, Integer>{
+public interface ClienteDAO extends JpaRepository<Cliente, Integer>{
     
 }
